@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hang Game</title> 
+</head>
+
+<header>Hang-Game</header>
+<body>
+<!-- tell the user to press a key to start playing the game -->
+<p>Press any letter key to get started</p>
+
+<script type="text/javascript">
+// When user presses a key, the computer chooses a word randomly from the wordbank, but doesn't display it. Five underscores are displayed on the screen, which represent letters and indicate the possible length of each word.
+
+	var wins = 0;
+	var loses = 0;
+
+	var wordbank = ["Hello", "Novel", "Wink"];
+
+	function GetValue()
+{
+    var myWordbank= new Wordbank["Hello","Novel","Wink"];
+    var random = myWordbank[Math.floor(Math.random() * myWordbank.length)];
+    //alert(random);
+
+    <h2> _ _ _ _ _<h2>;
+
+// Ask the user to choose and letter in the alphabet
+
+    document.getElementById("Please choose a letter").innerHTML=random;
+    
+    alert("Please choose a letter");
+};
+
+// When user chooses a letter, 
+	var alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+// letter is displayed and removed from the array
+	document.onkeyup = function() {
+		var userguess = String.fromCharCode(event.keyCode).
+		toLowerCase();
+//
+	var Hello = {
+		LetterOne: "H",
+		LetterTwo: "E",
+		LetterThree: "L"
+		LetterFour: "L"
+		LetterFive: "O",
+
+}
+	// If the random word is "Hello" and a letter is guessed, it will be added like a statistic and taken out of array.  This is the case with all letters, which are part of the word.  If they are not a part of the word they will still be taken out of the array.
+	if (random=="Hello") && (userguess==H): function (){
+	alert:("H" + "taken");
+	write Stats();
+	arr.push(H).prepend;
+
+	if (random=="Hello") && (userguess==E): function (){
+	alert:("E" + "taken");
+	write Stats();
+	arr.push(e).append;
+
+	if (random=="Hello") && (userguess==L): function (){
+	alert:("L" + "taken");
+	write Stats();
+	arr.push(l).append;
+
+	if (random=="Hello") && (userguess==O): function (){
+	alert:("O" + "taken");
+	write Stats();
+	arr.push(o).append
+		
+};
+
+	var Novel = {
+		LetterOne: "N",
+		LetterTwo: "O",
+		LetterThree: "V"
+		LetterFour: "E"
+		LetterFive: "L",
+
+}	if (random=="Novel") && (userguess==N: function (){
+	alert:("N" + "taken");
+	write Stats();
+	arr.push(N).prepend;
+
+	if (random=="Novel") && (userguess==O): function (){
+	alert:("O" + "taken");
+	write Stats();
+	arr.push(O).append;
+
+	if (random=="Novel") && (userguess==V): function (){
+	alert:("V" + "taken");
+	write Stats();
+	arr.push(l).append;
+
+	if (random=="Novel") && (userguess==E): function (){
+	alert:("E" + "taken");
+	write Stats();
+	arr.push(e).append
+
+	if (random=="Novel") && (userguess==L): function (){
+	alert:("L" + "taken");
+	write Stats();
+	arr.push(l).append
+		
+// When a word is completed within 12 guesses, the user wins, and the win will add one to their win tally.  If they lose it will add one to their tally of losses.
+
+
+
+// If a letter chosen by the user isn't a part of the random word, it will be removed from the array.
+
+
+
+</script>
+
+</body>
+</html>
